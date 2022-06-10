@@ -107,6 +107,9 @@ GIT commit - m + informação da alteração = Envia versão para pasta GIT
 GIT status = Mostra 
 GIT add -u =  Envia a versão mais nova do arquivo para o repositório GIT
 GIT push -u origin main  Manda atualização do GIT local para o GITHUB
+Git commit -m 'texto' = Grava no GIT local
+Git push -u origin main = Salva no GIT HUB
+
 
 Deploi = 
 
