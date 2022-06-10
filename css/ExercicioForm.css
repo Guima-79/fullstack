@@ -1,0 +1,87 @@
+/* Normalização */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #94a856;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px auto;
+  text-align: 80px;
+  color: white;
+}
+
+.box {
+  width: 20%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #eaf1d9;
+  padding: 30px;
+  gap: 100px;
+  box-shadow: 1px 1px 5px #222222;
+  border-radius: 8px;
+}
+
+.right {
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+.right form label,
+p span {
+  font-size: 20px;
+}
+
+.right form input,
+select {
+  padding: 8px;
+}
+
+.right form select:focus {
+  background: #eed9f1;
+  color: #222222;
+}
+
+.right form input:focus {
+  background: #eed9f1;
+  color: #222222;
+}
+
+.right form input[type="submit"] {
+  background: #91a856;
+  color: white;
+  font-weight: 600;
+  font-size: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.right form input[type="submit"]:hover {
+  background: #0ed03b;
+}
+
+#pessoa label {
+  margin-right: 10px;
+}

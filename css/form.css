@@ -1,0 +1,159 @@
+/* Normalização */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #9356a8;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px auto;
+  text-align: 80px;
+  color: white;
+}
+
+hr {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 80%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #eed9f1;
+  padding: 20px;
+  gap: 20px;
+  box-shadow: 1px 1px 5px #222222;
+  border-radius: 10px;
+}
+
+.right {
+  background: white;
+  padding: 5px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+.right form label,
+p span {
+  font-size: 20px;
+}
+
+.right form input,
+select {
+  padding: 8px;
+}
+
+.right form select:focus {
+  background: #eed9f1;
+  color: #222222;
+}
+
+.right form input:focus {
+  background: #eed9f1;
+  color: #222222;
+}
+
+.right form textarea:focus {
+  background: #eed9f1;
+  color: #222222;
+}
+
+.right form input[type="submit"] {
+  background: #9356a8;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.right form input[type="submit"]:hover {
+  background: #eed9f1;
+}
+
+.right form textarea {
+  resize: none;
+  height: 140px;
+}
+
+#genero label {
+  margin-right: 10px;
+}
+
+.obrigado {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Tablet Tela Grande */
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+  .box {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablet Tela Pequena */
+
+@media (min-width: 834px) and (max-width: 1024px) {
+  .box {
+    grid-template-columns: 1fr;
+  }
+}
+
+.box img {
+  width: 50%;
+}
+
+/* Mobile */
+
+@media (max-width: 833px) {
+  .box {
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+}
+
+.box img {
+  display: none;
+}
+
+.left {
+  display: none;
+}
+
+.right {
+  width: auto;
+}
+
+.right form {
+  width: auto;
+}
+
+h1 {
+  font-size: 45px;
+}

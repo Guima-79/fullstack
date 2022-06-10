@@ -1,0 +1,155 @@
+Visualbug: plugin do google chrome que ajuda ao passar o curso do mause mostra a estrutura da linguagem usada na página
+PseudoCLASSE : Criar sistema de Interatividade no CSS. Ex: Utilizar um botão existente e fazer com que ele mude de cor ao cursor passar por cima.
+Parametro Transition : Para quando trabalhar com pseudoclasse a mudança não ocorra de forma brusca! Consegue configurar o tempo de modificação.
+virtualização de fontes: @fonte-face (comando de virtualização no CSS)
+Recipiente de fonte: dafonte ou google fontes
+Favico : Uma versão resumida da logomarca ( Não pode ultrapassar 64 x 64 nem menor que 32x32)
+site flaticon: Site de icones
+
+https://kotchopires.github.io/exercicio01.html
+
+
+Aula 24/05
+
+
+Seletiona o que deseja ficar entre a TAG e aperta cltr + shift + p. No terminal digita: WRAP e após o nome da TAG que deseja colocar.
+div> h2+p+a Cria DIV e coloca todos dentro.
+Alt +shift + seta pra baixo = Duplica o que seleciona
+
+CANAL: Dicas para DEV
+Guanabara
+Gustavo Neitzeke
+Rafaela bailerine
+
+Aula 25/05
+
+Responsividade
+
+Calibragem: 300 a 650 Mobile / 650 a 750 Fablet / 750 a 1.200  Tablet / 1.024 a 1920
+@media = chama a configuração para responsividade no css.
+Max-width = abaixo
+min-width = acima
+
+justify-contents = horizontal
+align-contents = vertical
+
+https://cssgridgarden.com/
+
+codepen (Reservatorio de código pronto)
+
+Aula 26/05
+
+Flex = Edição de listas
+
+.flex div
+
+justify-content: space - between / evenly / around
+
+Displya flex transofrma qua
+
+Flax whap quando não tem espaço joga pra baixo
+
+flex grow: sempre tenta ocupar todo espaço. Ex: Equivale a 1fr da div.
+
+Aula 27/05
+
+TAG Semânticas
+
+Tags que sinalizam as áreas
+
+TOPO = header (nav=subdivisão)
+RODAPÉ = footer
+AREA PRINCIPAL = main (1-Section= subdivisão, section)
+
+
+Aula 30/05
+
+Position Absolute (Local aonde fica o posicionamento na pagina)
+Position relative (pai)
+position  Fixed (Fixar um objeto)
+
+Z-index = É pra determinar o andar que o objeto vai ficar!
+
+31/05
+
+UNIDADE REM
+
+
+1 REM = 16px
+
+z-index
+
+Criar video em background
+
+01/06
+
+NPM= Reservatório de pacotes para linguagens
+Clear CSS faz a normalização do CSS NORMALIZAÇÃO= Compactação no tamanho do arquivo CSS para carregar rápido.
+.min sinifica que o arquivo CSS foi normalizado, para reduzir o tamanho do arquivo.
+Netflify = E uma hospédagem gratuida para colocar um projeto no ar para que os clientes tenham acesso ao site funcionando.
+Git
+Nod gs
+	
+
+ctlr + shift + p = pesquisa no code
+Ctrl +shift + " = abre terminal no vc code
+
+02/06
+
+GIT =  Controle de versionamento local.
+
+GIT config -- Global user.name "seu nome" =  Configura conta no GIT
+GIT config -- Global user.email "email" = Configura e-mail no GIT
+GIT init = Cria pasta vazia para o repositório GIT
+GIT add <Nome do arquivo> 01 = Envia o arquivo para o purgatório para analise de versionamento
+GIT add -A = Manda todos os arquivos para analise que antecede a pasta GIT
+GIT commit - m + informação da alteração = Envia versão para pasta GIT
+GIT status = Mostra 
+GIT add -u =  Envia a versão mais nova do arquivo para o repositório GIT
+GIT push -u origin main  Manda atualização do GIT local para o GITHUB
+
+Deploi = 
+
+GIT HUB
+
+Git branch -M main = Transformar o GIT em um repositório main 
+
+
+03/06 
+
+Netlify = Hospedagem temporária de teste (Deploy) OBS: Pode ter infinitos deploy em sua conta.
+Pode utilizar sincronizar com o GITHUB.
+
+
+Formulário 
+
+Aplicação Back end = Roda do lado do servidor.
+
+07/06/2022
+
+Formulários Formatação e animação
+
+Site para animação : https://storyset.com/business
+
+https://formsubmit.co/ ( Site com configuração para formulario ir para email)
+Copiar pagina selecionada na pagina principal e colar no form action
+Ir na pagina DOC e copiar Captcha, next e
+
+Aula 09.06
+
+Relógio JS
+
+setInterval (Wille infinito)
+
+
+
+
+
+
+
+
+
+
+
+
+
